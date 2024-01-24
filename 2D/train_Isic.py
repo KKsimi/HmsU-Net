@@ -42,7 +42,7 @@ def tr_main(fold):
 
     net = HmsUnet(num_classes=1, img_size=256,  in_chans=3)
     net.to(device)
-    df_path = '/remote-home/hhhhh/Seg/ISIC/train_label.csv'
+    df_path = '/ISIC/train_label.csv'
     df = pd.read_csv(df_path)
     batchsize = 24
     train_dataset = MyDataset(df[df.fold != fold], trans('train'), img_size=imgsize)
