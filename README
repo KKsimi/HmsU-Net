@@ -1,1 +1,1 @@
-This is a general medical image segmentation method. We will update the code soon.
+HmsU-Net's medical image processing is divided into two parts, one is 2D image processing, the other is 3D image processing. For 2D images, public dataset 2018ISIC dermoscopic images were used as an example, while for 3D images, abdominal multi-organ segmentation was used in public dataset. The 3D image processing is the same as the input format, training, and prediction in the nnUNet and nnFormer code, but details will be added in a few days.
