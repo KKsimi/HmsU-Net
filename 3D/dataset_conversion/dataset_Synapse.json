@@ -1,0 +1,117 @@
+{
+    "description": "Multi-Atlas Labeling Beyond the Cranial Vault Abdominal Organ Segmentation",
+    "labels": {
+        "00": "background",
+        "01": "spleen",
+        "02": "right kidney",
+        "03": "left kidney",
+        "04": "gallbladder",
+        "05": "esophagus",
+        "06": "liver",
+        "07": "stomach",
+        "08": "aorta",
+        "09": "inferior vena cava",
+        "10": "portal vein and splenic vein",
+        "11": "pancreas",
+        "12": "right adrenal gland",
+        "13": "left adrenal gland"
+    },
+    "licence": "see challenge website",
+    "modality": {
+        "0": "CT"
+    },
+    "name": "AbdominalOrganSegmentation",
+    "numTest": 12,
+    "numTraining": 18,
+    "reference": "https://www.synapse.org/#!Synapse:syn3193805/wiki/217789",
+    "release": "0.0",
+    "tensorImageSize": "3D",
+    "test": [
+        "./imagesTs/ABD_001.nii.gz",
+        "./imagesTs/ABD_002.nii.gz",
+        "./imagesTs/ABD_003.nii.gz",
+        "./imagesTs/ABD_004.nii.gz",
+        "./imagesTs/ABD_008.nii.gz",
+        "./imagesTs/ABD_022.nii.gz",
+        "./imagesTs/ABD_025.nii.gz",
+        "./imagesTs/ABD_029.nii.gz",
+        "./imagesTs/ABD_032.nii.gz",
+        "./imagesTs/ABD_035.nii.gz",
+        "./imagesTs/ABD_036.nii.gz",
+        "./imagesTs/ABD_038.nii.gz"
+    ],
+    "training": [
+        {
+            "image": "./imagesTr/ABD_005.nii.gz",
+            "label": "./labelsTr/ABD_005.nii.gz"
+        },
+        {
+            "image": "./imagesTr/ABD_006.nii.gz",
+            "label": "./labelsTr/ABD_006.nii.gz"
+        },
+        {
+            "image": "./imagesTr/ABD_007.nii.gz",
+            "label": "./labelsTr/ABD_007.nii.gz"
+        },
+        {
+            "image": "./imagesTr/ABD_009.nii.gz",
+            "label": "./labelsTr/ABD_009.nii.gz"
+        },
+        {
+            "image": "./imagesTr/ABD_010.nii.gz",
+            "label": "./labelsTr/ABD_010.nii.gz"
+        },
+        {
+            "image": "./imagesTr/ABD_021.nii.gz",
+            "label": "./labelsTr/ABD_021.nii.gz"
+        },
+        {
+            "image": "./imagesTr/ABD_023.nii.gz",
+            "label": "./labelsTr/ABD_023.nii.gz"
+        },
+        {
+            "image": "./imagesTr/ABD_024.nii.gz",
+            "label": "./labelsTr/ABD_024.nii.gz"
+        },
+        {
+            "image": "./imagesTr/ABD_026.nii.gz",
+            "label": "./labelsTr/ABD_026.nii.gz"
+        },
+        {
+            "image": "./imagesTr/ABD_027.nii.gz",
+            "label": "./labelsTr/ABD_027.nii.gz"
+        },
+        {
+            "image": "./imagesTr/ABD_028.nii.gz",
+            "label": "./labelsTr/ABD_028.nii.gz"
+        },
+        {
+            "image": "./imagesTr/ABD_030.nii.gz",
+            "label": "./labelsTr/ABD_030.nii.gz"
+        },
+        {
+            "image": "./imagesTr/ABD_031.nii.gz",
+            "label": "./labelsTr/ABD_031.nii.gz"
+        },
+        {
+            "image": "./imagesTr/ABD_033.nii.gz",
+            "label": "./labelsTr/ABD_033.nii.gz"
+        },
+        {
+            "image": "./imagesTr/ABD_034.nii.gz",
+            "label": "./labelsTr/ABD_034.nii.gz"
+        },
+        {
+            "image": "./imagesTr/ABD_037.nii.gz",
+            "label": "./labelsTr/ABD_037.nii.gz"
+        },
+        {
+            "image": "./imagesTr/ABD_039.nii.gz",
+            "label": "./labelsTr/ABD_039.nii.gz"
+        },
+        {
+            "image": "./imagesTr/ABD_040.nii.gz",
+            "label": "./labelsTr/ABD_040.nii.gz"
+        }
+    ]
+}
