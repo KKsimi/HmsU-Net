@@ -20,7 +20,7 @@ import shutil
 
 
 if __name__ == "__main__":
-    base = "/remote-home/hhhhh/code_map/nnunetV1/DATASET/nnUNet_raw/nnUNet_raw_data/"
+    base = "/raw_data/"
 
     task_id = 20
     task_name = "BTCV"
