@@ -1,3 +1,7 @@
+# HmsU-Net
+This is This is the official code for the paper "HmsU-Net: A hybrid multi-scale U-net based on a CNN and transformer for medical image segmentation, Computers in Biology and Medicine (Volume 170, March 2024, 108013)"
+[https://doi.org/10.1016/j.compbiomed.2024.108013](https://doi.org/10.1016/j.compbiomed.2024.108013).
+
 HmsU-Net's medical image processing is divided into two parts, one is 2D image processing, the other is 3D image processing. 
 For 2D images, public dataset 2018ISIC dermoscopic images were used as an example, while for 3D images, abdominal multi-organ segmentation was used in public dataset.
 The 3D image processing is the same as the input format, training, and prediction in the nnUNet and nnFormer code. 
