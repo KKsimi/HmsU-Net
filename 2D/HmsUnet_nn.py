@@ -2,8 +2,8 @@ import torch
 import torch.nn as nn
 from timm.models.layers import DropPath,  trunc_normal_
 import math
-from experment.model_blocks import TransformerBlock
-from experment.dynunet_block import ConvBlock, UnetBasicBlock, UnetOutBlock
+from model_blocks import TransformerBlock
+from dynunet_block import ConvBlock, UnetBasicBlock, UnetOutBlock
 import torch.nn.functional as F
 
 NORM_EPS = 1e-5
